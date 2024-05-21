@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>태그 선택자 연습01</title>
+    <style>
+        #test01 {  /*혹은 h1#test01해도 됨*/
+            color:red;
+        }
+        #test02 {
+            font-size:30px;
+            color:purple;
+            text-decoration:underline;
+        }
+        .test03 {  /*혹은 span.test01해도 됨, 단 이때는 span에 있는 class="test03"에만 적용*/
+            font-size:30px;
+            color:pink;
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>서울특별시</h1>
+    <h1 id="test01">인천광역시</h1>
+    <h1>부산광역시</h1>
+    <span id="test02">용산구</span> <span>종로구</span> <span>강남구</span><br><br>
+    <span class="test03">강동구</span> <span class="test03">서대문구</span> <span class="test03">동작구</span>
+</body>
+</html>
