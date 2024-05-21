@@ -1,3 +1,9 @@
+* {  /* body에 기본으로 설정된 마진, 패딩을 없애줌 */
+    margon:0;
+    padding:0;
+}
+
+
 h3 {
     color:pink;
     font-size:50px;
